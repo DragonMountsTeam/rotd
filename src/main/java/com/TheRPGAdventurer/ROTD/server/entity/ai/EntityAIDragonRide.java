@@ -38,7 +38,7 @@ public class EntityAIDragonRide extends EntityAIDragonBase implements PrivateAcc
 
     @Override
     public void startExecuting() {
-        dragon.getNavigator().clearPathEntity();
+        dragon.getNavigator().clearPath();
     }
     
     @Override

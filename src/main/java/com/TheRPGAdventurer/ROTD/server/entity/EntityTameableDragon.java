@@ -490,7 +490,7 @@ public class EntityTameableDragon extends EntityTameable implements IShearable {
     public void tamedFor(EntityPlayer player, boolean successful) {       
         if (successful) {
             setTamed(true);
-            navigator.clearPathEntity();  // replacement for setPathToEntity(null);
+            navigator.clearPath();  // replacement for setPathToEntity(null);
             setAttackTarget(null);
             setOwnerId(player.getUniqueID());
             playTameEffect(true);

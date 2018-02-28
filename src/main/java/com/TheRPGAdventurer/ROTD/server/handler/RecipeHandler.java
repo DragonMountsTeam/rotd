@@ -40,30 +40,30 @@ public class RecipeHandler {
 	}
 	
 	private static void registerToolRecipe(Item scales, Item pickaxe, Item axe, Item shovel, Item sword) {
-		GameRegistry.addRecipe(new ItemStack(pickaxe), new Object[] {"III"," S "," S ", 'I', scales, 'S', Items.STICK });
-		GameRegistry.addRecipe(new ItemStack(axe), new Object[] {" II"," SI"," S ", 'I', scales, 'S', Items.STICK });
-		GameRegistry.addRecipe(new ItemStack(axe), new Object[] {"II "," SI"," S ", 'I', scales, 'S', Items.STICK });
-	    GameRegistry.addRecipe(new ItemStack(shovel), new Object[] {" I "," S "," S ", 'I', scales, 'S', Items.STICK });
-		GameRegistry.addRecipe(new ItemStack(shovel), new Object[] {"I  ","S  ","S  ", 'I', scales, 'S', Items.STICK });
-		GameRegistry.addRecipe(new ItemStack(shovel), new Object[] {"  I","  S","  S", 'I', scales, 'S', Items.STICK });
-		GameRegistry.addRecipe(new ItemStack(sword), new Object[] {" I "," I "," S ", 'I', scales, 'S', Items.STICK });
-		GameRegistry.addRecipe(new ItemStack(sword), new Object[] {"I  ","I  ","S  ", 'I', scales, 'S', Items.STICK });
-		GameRegistry.addRecipe(new ItemStack(sword), new Object[] {"  I","  I","  S", 'I', scales, 'S', Items.STICK });
+	//	GameRegistry.addRecipe(new ItemStack(pickaxe), new Object[] {"III"," S "," S ", 'I', scales, 'S', Items.STICK });
+	//	GameRegistry.addRecipe(new ItemStack(axe), new Object[] {" II"," SI"," S ", 'I', scales, 'S', Items.STICK });
+	//	GameRegistry.addRecipe(new ItemStack(axe), new Object[] {"II "," SI"," S ", 'I', scales, 'S', Items.STICK });
+	 //   GameRegistry.addRecipe(new ItemStack(shovel), new Object[] {" I "," S "," S ", 'I', scales, 'S', Items.STICK });
+	//	GameRegistry.addRecipe(new ItemStack(shovel), new Object[] {"I  ","S  ","S  ", 'I', scales, 'S', Items.STICK });
+	//	GameRegistry.addRecipe(new ItemStack(shovel), new Object[] {"  I","  S","  S", 'I', scales, 'S', Items.STICK });
+	//	GameRegistry.addRecipe(new ItemStack(sword), new Object[] {" I "," I "," S ", 'I', scales, 'S', Items.STICK });
+	//	GameRegistry.addRecipe(new ItemStack(sword), new Object[] {"I  ","I  ","S  ", 'I', scales, 'S', Items.STICK });
+	//	GameRegistry.addRecipe(new ItemStack(sword), new Object[] {"  I","  I","  S", 'I', scales, 'S', Items.STICK });
 	}
 	
 	public static void registerArmourRecipe(Item helmet, Item chestplate, Item leggings, Item boots, Item scales) {
-		GameRegistry.addRecipe(new ItemStack(helmet), new Object[] { "III","I I","   ",'I',scales});
-		GameRegistry.addRecipe(new ItemStack(helmet), new Object[] { "   ","III","I I",'I',scales});
-		GameRegistry.addRecipe(new ItemStack(chestplate), new Object[] { "I I","III","III",'I',scales});
-		GameRegistry.addRecipe(new ItemStack(leggings), new Object[] { "III","I I","I I",'I',scales});
-		GameRegistry.addRecipe(new ItemStack(boots), new Object[] { "I I","I I","   ",'I',scales});
-		GameRegistry.addRecipe(new ItemStack(boots), new Object[] { "   ","I I","I I",'I',scales});
+	//	GameRegistry.addRecipe(new ItemStack(helmet), new Object[] { "III","I I","   ",'I',scales});
+	//	GameRegistry.addRecipe(new ItemStack(helmet), new Object[] { "   ","III","I I",'I',scales});
+	//	GameRegistry.addRecipe(new ItemStack(chestplate), new Object[] { "I I","III","III",'I',scales});
+	//	GameRegistry.addRecipe(new ItemStack(leggings), new Object[] { "III","I I","I I",'I',scales});
+	//	GameRegistry.addRecipe(new ItemStack(boots), new Object[] { "I I","I I","   ",'I',scales});
+	//	GameRegistry.addRecipe(new ItemStack(boots), new Object[] { "   ","I I","I I",'I',scales});
 	}
 	
 	
 	private static void registerOtherRecipes() {
-		GameRegistry.addRecipe(new ItemStack(ModBlocks.pileofsticks), new Object[] {"SSS","SSS","SSS", 'S', Items.STICK});
-		GameRegistry.addRecipe(new ItemStack(ModTools.diamond_shears), new Object[] {" D","D ", 'D', Items.DIAMOND});
+	//	GameRegistry.addRecipe(new ItemStack(ModBlocks.pileofsticks), new Object[] {"SSS","SSS","SSS", 'S', Items.STICK});
+	//	GameRegistry.addRecipe(new ItemStack(ModTools.diamond_shears), new Object[] {" D","D ", 'D', Items.DIAMOND});
 		
 	}
 }

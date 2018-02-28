@@ -20,6 +20,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.NonNullList;
 
 /**
  *
@@ -56,10 +57,10 @@ public class BlockDragonBreedEgg extends BlockDragonEgg {
         EnumDragonBreed type = (EnumDragonBreed) state.getValue(BREED);
         return EnumDragonBreed.META_MAPPING.get(type);
     }
-    
+
     @Override
-    public void getSubBlocks(Item itemIn, CreativeTabs tab, List<ItemStack> list) {
-        EnumDragonBreed.META_MAPPING.values().forEach(index -> list.add(new ItemStack(itemIn, 1, index)));
+    public void getSubBlocks(CreativeTabs itemIn, NonNullList<ItemStack> items) {
+        EnumDragonBreed.META_MAPPING.values().forEach(index -> items.add(new ItemStack(this, 1, 0)));
     }
 
     @Override

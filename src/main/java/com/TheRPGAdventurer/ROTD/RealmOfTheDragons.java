@@ -14,7 +14,6 @@ import com.TheRPGAdventurer.ROTD.client.init.ModBlocks;
 import com.TheRPGAdventurer.ROTD.client.init.ModItems;
 import com.TheRPGAdventurer.ROTD.client.init.ModTools;
 import com.TheRPGAdventurer.ROTD.server.CommonProxy;
-import com.TheRPGAdventurer.ROTD.server.world.RealmOfTheDragonsWorldGenerator;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.config.Configuration;
@@ -84,7 +83,7 @@ public class RealmOfTheDragons {
     @EventHandler
     public void init(FMLInitializationEvent evt) {
 //    	RecipeHandler.registerCraftingRecipes(null, null, null, null, null);
-		GameRegistry.registerWorldGenerator(new RealmOfTheDragonsWorldGenerator(), 0);
+		//GameRegistry.registerWorldGenerator(new RealmOfTheDragonsWorldGenerator(), 0);
     }
 
     @EventHandler

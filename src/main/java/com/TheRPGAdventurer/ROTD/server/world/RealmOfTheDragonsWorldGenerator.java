@@ -24,8 +24,8 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 public class RealmOfTheDragonsWorldGenerator implements IWorldGenerator {
 	//@formatter:off
 
-	StructureDragonNests dragonNest = new StructureDragonNests();
-	StructureDragonNestNether dragonNestNether = new StructureDragonNestNether();
+	//StructureDragonNests dragonNest = new StructureDragonNests();
+	//StructureDragonNestNether dragonNestNether = new StructureDragonNestNether();
 	
 	//@formatter:on
 	@Override
